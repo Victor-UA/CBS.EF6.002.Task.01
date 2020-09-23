@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace HT1_CodeFirst
+namespace HT1_CodeFirst.Models
 {
-    public class Class1
+    public class Audience : Base.Item
     {
     }
 }
