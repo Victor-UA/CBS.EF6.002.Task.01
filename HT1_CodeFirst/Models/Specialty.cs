@@ -8,9 +8,9 @@ namespace HT1_CodeFirst.Models
 {
     public class Specialty : Base.Item
     {
-        public Group Group { get; set; }
-        public Trainer Trainer { get; set; }
-        public Audience Audience { get; set; }
-        public Schedule Schedule { get; set; }
+        public virtual Group Group { get; set; }
+        public virtual Trainer Trainer { get; set; }
+        public virtual Audience Audience { get; set; }
+        public virtual Schedule Schedule { get; set; }
     }
 }
