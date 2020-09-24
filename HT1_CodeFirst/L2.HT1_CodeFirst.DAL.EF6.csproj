@@ -53,6 +53,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Context\CompanyContextInitializer.cs" />
     <Compile Include="Context\CompanyContext.cs" />
     <Compile Include="Models\Audience.cs" />
     <Compile Include="Models\Base\Item.cs" />

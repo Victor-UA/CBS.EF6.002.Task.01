@@ -7,6 +7,10 @@ namespace HT1_CodeFirst.Context
 
     public class CompanyContext : DbContext
     {
+        static CompanyContext()
+        {
+            Database.SetInitializer(new CompanyContextInitializer());
+        }
         // Your context has been configured to use a 'CompanyContext' connection string from your application's 
         // configuration file (App.config or Web.config). By default, this connection string targets the 
         // 'HT1_CodeFirst.Context.CompanyContext' database on your LocalDb instance. 
